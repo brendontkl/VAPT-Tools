@@ -56,7 +56,7 @@ Overview
 headers.py is the third tool in the Web VAPT Tools suite. It scans target URLs for missing or misconfigured HTTP security headers based on OWASP and PortSwigger best practices. The workflow supports both authenticated and unauthenticated scanning, and deduplicates URLs so only unique base paths are tested (ignoring query parameters).
 
 **Features**
-- ✅ Detects missing headers such as:
+✅ Detects missing headers such as:
 - X-Frame-Options
 - X-Content-Type-Options
 - Strict-Transport-Security
@@ -64,21 +64,26 @@ headers.py is the third tool in the Web VAPT Tools suite. It scans target URLs f
 - Referrer-Policy
 - Permissions-Policy
 - Cross-Origin headers (CORP, COOP, COEP)
-- ✅ Flags misconfigurations, e.g.:
+  
+✅ Flags misconfigurations, e.g.:
 - CSP containing unsafe-inline, unsafe-eval, or wildcards (*)
 - HSTS missing max-age, includeSubDomains, or preload
 - X-Frame-Options using deprecated ALLOW-FROM
 - Referrer-Policy set to unsafe-url
-- ✅ Special handling for deprecated headers:
+  
+✅ Special handling for deprecated headers:
 - X-XSS-Protection is only flagged if present (correct state is absent).
-- ✅ Supports authentication workflows:
+  
+✅ Supports authentication workflows:
 - No authentication
 - Bearer token
 - Cookie string
-- ✅ Flexible output formats:
+  
+✅ Flexible output formats:
 - Group by header → list all affected URLs under each misconfigured header
 - Group by URL → list all misconfigured headers for each target
-- ✅ User can choose:
+  
+✅ User can choose:
 - Plain URLs only (easy copy/paste into Excel reports)
 - URLs with inline details (brackets showing what was misconfigured)
   
@@ -88,12 +93,19 @@ Run the tool interactively:
 python3 headers.py
 ```
 
+**📸 Screenshot Usage**
+
+<img width="1016" height="1284" alt="image" src="https://github.com/user-attachments/assets/58f82d0c-9a6d-4513-b905-d93777cb1de3" />
+
+
 You will be prompted to:
 - Paste a list of URLs (e.g., from BurpSuite → Copy all URLs).
 - Select authentication type (none, Bearer token, or Cookie).
 - Choose output format (group by header or group by URL).
 - Decide whether to display plain URLs or detailed findings.
-Example Output
+
+**Example Output**
+
 Option 1 (Group by Header, plain URLs):
 Content-Security-Policy
   - http://example.com
