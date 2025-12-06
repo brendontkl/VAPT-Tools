@@ -31,13 +31,14 @@ python host.py
 
 Follow the prompts to configure your test. Results are printed to the terminal and saved in host_inject_report.json.
 
-2. JWT Exploitation Utilities
+## 2. JWT Exploitation Utilities
 - Automates JSON Web Token exploitation techniques.
 - Supports JKU/JWKS hosting, signature bypasses, and cryptographic attack chains.
 - Designed for extensibility and integration with GitHub Pages for callback endpoints.
-Usage:
+**Usage:**
+```bash
 python jwt_exploit.py
-
+```
 
 Interactive prompts guide you through token manipulation and exploitation scenarios.
 
