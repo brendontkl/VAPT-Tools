@@ -146,10 +146,11 @@ Features
 - Unsupported ciphers (not negotiated by server/OpenSSL build)
 ✅ Provides summary counts for quick visibility.
 Usage
+```bash
 python3 ssl_ciphers.py <host> <port>
-
-
+```
 **📸 Screenshot Usage image**
+
 <img width="702" height="586" alt="image" src="https://github.com/user-attachments/assets/fadc3249-45fc-4721-9a2a-d1d30f11c0d7" />
 
 Results are printed to the terminal as shown above.
@@ -181,6 +182,7 @@ python3 smuggling.py <host> <port> [--proxy 127.0.0.1]
 ```
 
 **📸 Screenshot Usage image**
+
 <img width="639" height="786" alt="image" src="https://github.com/user-attachments/assets/c889e11c-b3a3-4dcf-98af-a4687e4d900e" />
 
 Results are printed to the terminal and can be intercepted in Burp Suite for deeper analysis.
