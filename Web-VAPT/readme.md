@@ -7,10 +7,10 @@ The **Web VAPT** folder contains automation scripts focused on web application p
 Before running the Web VAPT Tools, make sure you install all required Python dependencies.
 
 1. **Clone the repository** (or download it):
-   ```bash
-   git clone https://github.com/brendontkl/VAPT-Tools.git
-   cd VAPT-Tools\web-vapt-tools
-   ```
+```bash
+git clone https://github.com/brendontkl/VAPT-Tools.git
+cd VAPT-Tools\web-vapt-tools
+```
 
 2. Create a virtual environment (recommended):
 ```bash
