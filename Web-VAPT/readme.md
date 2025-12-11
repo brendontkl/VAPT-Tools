@@ -253,15 +253,18 @@ Overview `cors_exploit.py` is the sixth tool in the Web VAPT Tools suite. It aut
 - HTTP vs HTTPS scheme mismatches
 - Multiple origins in a single header
 - Preflight `OPTIONS` requests with custom methods and headers  
+
 ✅ Interactive workflow:
 - Target URL input
 - HTTP method selection (GET/POST/PUT)
 - Optional body data for POST/PUT requests
 - Authentication cookies and custom headers (loop input until blank line)  
+
 ✅ Outputs grouped results:
 - Successful exploitation attempts (origin reflection, wildcard+credentials, critical misconfigs)
 - Interesting anomalies (wildcards, credential flags, specific ACAO values)
 - Failed attempts or safe configurations  
+
 ✅ SSL verification toggle with warnings suppressed for Burp/self‑signed testing environments.
 
 **Example Individual Script Usage:**  
