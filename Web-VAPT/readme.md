@@ -8,8 +8,8 @@ Before running the Web VAPT Tools, make sure you install all required Python dep
 
 1. **Clone the repository** (or download it):
    ```bash
-   git clone https://github.com/yourusername/web-vapt-tools.git
-   cd web-vapt-tools
+   git clone https://github.com/brendontkl/VAPT-Tools.git
+   cd VAPT-Tools\web-vapt-tools
    ```
 
 2. Create a virtual environment (recommended):
