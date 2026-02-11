@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Interactive Host Header Injection Tester (Final)
-- Implements All Host Header Injection techniques:
+- Implements PortSwigger techniques:
   * Flawed validation: non-numeric port, arbitrary subdomain, compromised subdomain
   * Duplicate Host headers
   * Absolute URL in request line (HTTP/HTTPS)
