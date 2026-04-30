@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## 🚀 Main Workflow
 Run the main entry point to access all tools:
 ```bash
-python3 main.py
+python3 bt-websuite.py
 ```
 
 **📸 Main Menu**
