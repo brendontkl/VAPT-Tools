@@ -1,4 +1,4 @@
-# Web VAPT Toolkit Standalone Executable
+# Web VAPT Toolkit
 
 Single-file consolidation of my original modular toolkit into one Python script that can be turned into
 a standalone binary with **zero internet** and **zero Python install**
